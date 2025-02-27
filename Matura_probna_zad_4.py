@@ -14,7 +14,7 @@ lista_4_1=[]
 for h,s in prostokaty:
     lista_4_1.append(h*s)
 
-#print(min(lista_4_1),max(lista_4_1))
+print(min(lista_4_1),max(lista_4_1))
 
 #4.2
 akt_dl, maks_dl,akt_pocz, maks_pocz=1,1,0,0
@@ -36,7 +36,7 @@ for i in range(len(prostokaty) - 1):
         akt_dl=1
         akt_pocz=i
 
-#print(maks_dl,prostokaty[maks_pocz+maks_dl])
+print(maks_dl,prostokaty[maks_pocz+maks_dl])
 #4.3
 wysokosci = []
 for h, s in prostokaty:
