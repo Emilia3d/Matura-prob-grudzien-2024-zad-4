@@ -55,8 +55,8 @@ for i in range(len(wysokosci)): #wypełnienie list szerokościami dla danej wyso
 for i in range(len(szerokosci)):
     szerokosci[i].sort(reverse=True)
     print (szerokosci[i])
-#dla 2,3 i 5 prostokatow
-
+    
+#suma szer dla 2,3 i 5 pierwszych prostokatow (posortowalismy od najwiekszego)
 suma2s=0
 for i in range(len(szerokosci)):
     if len(szerokosci[i]) >= 2:
